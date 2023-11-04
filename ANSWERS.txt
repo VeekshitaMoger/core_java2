@@ -1,0 +1,307 @@
+ANSWERS:
+
+1.Java 
+  *It is a programming language 
+  *It is use to develop the web apllication mobile application.
+  Javac 
+  *It is used to compile the java program.
+
+
+
+
+
+
+2. JDK:
+       *It  is the immpliment ofJVM
+       *java development kit
+   JRE:
+       *Java runttime execution
+       * It executes the java application
+       *it is phisically exits. 
+   JVM:
+        *In the java programming language it is the main prority.
+       *It is used to execute the method.
+       *It is also called as the abstract machine beacuse its phisically does not exits.
+
+
+
+
+
+
+3  .java file :
+   *The developer writes the java code he must gave this extension.
+   *Whatever code is executed in the java application that is called as .javafile.
+    
+     .class file:
+    *Whether the developer writes the code with .class extension its is called as class file.
+
+
+
+
+
+4. Java IDE's:
+    *JDK,JVM,JRE
+
+
+
+   
+5.Variables:
+   *It is also called as container.
+   *It is used to store the information.
+   *In variable we have to assign a value for this.The main concept of the variable is not take the different type of datatype
+ Syntax:
+    typename ref;
+initialization of vaeiable:
+    typename ref=value;
+example: int a=10;
+   From the above exmaple we declare one variable that is type of int.
+
+Types of the variable:
+   the variable can be devided into 2type:
+1.class level                        2.Method level
+*static     *nonstatic         *local           *parameterised
+1.ex:
+static int a;
+
+2.example for non static:
+String name; 
+
+3.local variable means if we create one variable we can access anywhere int the method.
+example:
+class Xwrokz
+{
+  static setName(String name)
+{
+  int total=0;
+}
+
+4.Parameterised we write it in the method that within the paranthisis.
+ex:
+setProvaided total(int quantity)
+ In this example int quantity is the parameterised variable.
+
+
+
+
+
+6.Object oriented  programming in java:
+It means java is purely a object oriented language beacuse it use the primitive data type sometimes.In java they include some of the object oriented principles like  Abstraction,Encapsulation,Inheritance,polymorphism.
+
+
+
+
+
+7.The output of the given code is nothing Becuase in this code we do not write any messages or we do not write any code thats why it doesnot print anythink.
+
+
+
+
+
+
+8.Data type:
+  The data type which is used to store the value or we can assign the values for it.If we assign the values for the data tyoe we have to use the equal(=) is used to assign the value.It is one of the important concept in java.In data type we have know that how many memory will be allocated for that type.
+Types:
+*Primitive datatypes
+1.int 2.float 3.char 4.boolean
+
+Example for the primitive datatype:
+Class Xworkz
+{
+int a=2;
+System.out.pritln("a");
+}
+
+*non primitive datatype:
+1.String 2.Arrays
+
+Example for the non primitive datatype:
+String []names={"vani","madhu"};
+
+
+
+
+
+9.Dot operator:
+The Dot operators which is used to acces the values/memory.If we use of the dot operator we can acces that values.We can access through class name or the method name.If we access the static values we access it from the class name.If we access the non static variable we can access through the method .
+
+Example for access the static variable
+class fruits
+{
+  int nooffruits=10;
+}
+public static void main(String []args)
+{
+  fruits.nooffruits;
+}
+}
+
+Exmaple for the non static 
+class bus
+{
+  int noofbus=9;
+}
+void setNm(int noofbus)
+{
+   this.noofbus=noofbus;
+}
+public static void main(String []args)
+{
+  System.out.println("Start");
+  bus.setNm();
+  System.out.println("Start");
+}
+
+
+
+
+10.Java Features:
+*Platform independence
+*highspeed
+*machine learning
+*free to use
+*no use of pointer
+*reliablity
+
+
+
+
+11.Array:
+*Array is the collection of homogenous elements Homogenous elemets meants same name
+*Array is have fixed size of length.
+*Array index is start from zero.
+*Array is a non primitive datatype
+*Array is non static.
+*We reeperesent the array using square brackets.
+*We use the array when we have to declre the n number of elements.
+
+Exmple for the array:
+String []name={"Vani","Madhu","Jamuna","Ammu"};
+char []owels={'a','e'.'i','o','u'};
+int []num={1,2,3,4,5,6,7,8,9};
+
+
+
+
+
+12.Class is the templet of object.The class can create the number of object number of method and the clas is also include the main method.
+Object means it is real word entity.Technicallly we call it as instance of the class.
+
+Example for the class and ibject:
+class Animal
+{
+  int noofanimal=10;
+  String color="red";
+
+setName(int noofanimal,String color)
+{
+   this.noofanimal=noofanimal;
+  this.color=color;
+  System.out.println("noofanimal:"+noofanimal);
+  System.out.println("color of the animal:"+color);
+
+
+}
+public static void main(String []args)
+{
+   Animal.setName();
+}
+
+
+
+
+
+13.10 keywords in java
+*assert 
+*abstarct 
+*byte 
+*boolean
+*char
+*float 
+*int
+*if
+*for
+*super
+
+example for keyword:
+for(i=0;i<n;i++)
+
+
+
+
+
+14.Constructors:
+*Constructors is the specail method which is used to initialized the instance object
+*In constructors there is no return type
+*The class name and the constrcutor name should be same
+
+Types for contructor:
+*coppy constructors
+*parameterized constructors
+*defult constructors
+
+
+
+
+
+15. Beacuse the main method should not be change it should be in static mode only Static means it cannot be changes anywhere it is contant.
+There is no rules that main method sholud be in public method because in java langauge there is no rule for we have to define the same access specifier for the it is developer decide
+Types of the method:
+*Static method :
+static mrthod means we use the static keyword infront of the method name
+
+*non static method:
+Non static method should not be use the static keyword.
+
+
+
+
+
+
+16.class Number
+{
+  int []array={12,3,2,45,6,7,6};
+     length.array;
+
+public static void main(String []args)
+{
+   System.out.println("No of values in the array");
+}
+
+
+
+
+
+
+17.Method  and the method overloading:
+  Method means something we have created to display the messages or we can access the variable which is present in program
+  Method overloading means Same name with the different parameter is called as method overloading.
+Example:
+
+class Movie
+{
+  int price;
+  String moviename;
+
+ Movie()
+{
+   System.out.println("Const with no args:");
+}
+Movie(int price,String moviename)
+{
+ this.price=price;
+ this.moviename=moviename;
+ System.out.println("Price:"+price);
+ System.out.println("movienmae:"+moviename);
+}
+Public static void main(String []args)
+{
+  System.out.println("Starting main method");
+  Movie movie=new Movie(250,"jawan");
+  System.out.println("Ending main method");
+}
+
+
+
+
+
+    
